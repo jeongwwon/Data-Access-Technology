@@ -16,7 +16,7 @@ import java.sql.DriverManager;
 
 
 @Slf4j
-@Import(JpaConfig.class)
+@Import(V2Config.class)
 @SpringBootApplication(scanBasePackages = "hello.itemservice.web")
 public class ItemServiceApplication {
 
